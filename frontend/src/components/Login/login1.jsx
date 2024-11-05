@@ -20,7 +20,9 @@ const login1= () => {
   };
 
   return (
+    
     <div className="glass-container">
+      <div className="top-right"> <h1>Interview Lense</h1></div>
       <div className="login-box">
         <h2>Login</h2>
         {error && <p className="error">{error}</p>}

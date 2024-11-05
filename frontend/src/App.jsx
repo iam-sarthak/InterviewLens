@@ -5,12 +5,12 @@ import LoginPage from "./components/Login/LoginPage.jsx";
 function App() {
 
   return( 
-  <main>
-    <LoginPage/>
+  <>
+    {/* <LoginPage/> */}
       <Navbar/>
-    <Middle/> 
+    {/* <Middle/>  */}
      
-  </main>
+  </>
    
   )  ;
    

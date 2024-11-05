@@ -1,11 +1,12 @@
  
 .glass-container {
+   
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #c3ec52 0%, #0ba29d 100%);
-    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #9dd00f 0%, #0ba29d 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .login-box {
@@ -25,7 +26,7 @@
     font-size: 28px;
   }
   
-  /* Form inputs */
+   
   form input[type="text"], form input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -34,21 +35,21 @@
     border-radius: 5px;
     outline: none;
     background: rgba(255, 255, 255, 0.25);
-    color: #fff;
+    color: #000000d0;
     font-size: 16px;
   }
   
   form input[type="text"]::placeholder, form input[type="password"]::placeholder {
-    color: #d1d1d1;
+    color: #147817;
   }
   
-  /* Error message */
+   
   .error {
     color: #ff4d4d;
     margin-bottom: 15px;
   }
   
-  /* Options (Remember me & Forgot password) */
+ 
   .options {
     display: flex;
     justify-content: space-between;
@@ -71,11 +72,11 @@
     accent-color: #0ba29d;
   }
   
-  /* Submit button */
+ 
   button {
     width: 100%;
     padding: 12px;
-    background-color: #0ba29d;
+    background-color: #18a20b;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -85,7 +86,7 @@
   }
   
   button:hover {
-    background-color: #089d85;
+    background-color: #79c26d;
   }
   
   /* Registration link */
@@ -104,3 +105,11 @@
     color: #ffffff;
   }
   
+  .top-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
